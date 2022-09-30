@@ -6,6 +6,9 @@ import ShoeTable from './components/ShoeTable.js';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 
+
+
+
 const darkTheme = createTheme({
   palette: {
     mode: 'dark',
@@ -21,7 +24,7 @@ function App() {
       </nav>
       <ThemeProvider theme={darkTheme}>
         <CssBaseline />
-        <main>This app is using the dark mode</main>
+        <main>This app is using the dark mode but i swear there is data in the table - no time for css...</main>
       </ThemeProvider>
 
       <Switch>
@@ -31,6 +34,7 @@ function App() {
         </Route>
         <Route path="/Charts">
           <h1>Chart Library</h1>
+        
         </Route>
       </Switch>
     </div>
