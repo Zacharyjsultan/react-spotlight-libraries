@@ -1,5 +1,7 @@
 import shoe from '../json/shoes.json';
+// eslint-disable-next-line
 import { Table, Column, HeaderCell, Cell } from 'rsuite-table';
+// eslint-disable-next-line
 import 'rsuite-table/dist/css/rsuite-table.css';
 
 export default function ShoesTable() {
