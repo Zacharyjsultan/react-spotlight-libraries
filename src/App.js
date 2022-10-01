@@ -35,7 +35,7 @@ function App() {
           <ShoeTable></ShoeTable>
         </Route>
         <Route path="/Charts">
-          <h1>Chart Library</h1>
+          <h1>Users Chart</h1>
           <Chart />
         </Route>
       </Switch>
