@@ -5,6 +5,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import ShoeTable from './components/ShoeTable.js';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
+import Chart from './components/Charts';
+
 
 
 
@@ -34,7 +36,7 @@ function App() {
         </Route>
         <Route path="/Charts">
           <h1>Chart Library</h1>
-        
+          <Chart />
         </Route>
       </Switch>
     </div>

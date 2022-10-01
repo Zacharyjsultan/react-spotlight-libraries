@@ -12,17 +12,17 @@ export default function ShoesTable() {
         <Cell dataKey="id" />
       </Column>
 
-      <Column width={300}>
+      <Column width={400}>
         <HeaderCell>shoe</HeaderCell>
         <Cell dataKey="shoe" />
       </Column>
 
-      <Column width={300}>
+      <Column width={400}>
         <HeaderCell>company</HeaderCell>
         <Cell dataKey="company" />
       </Column>
 
-      <Column width={300}>
+      <Column width={400}>
         <HeaderCell>color</HeaderCell>
         <Cell dataKey="color" />
       </Column>
