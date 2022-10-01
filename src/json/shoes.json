@@ -1,0 +1,21 @@
+[{
+    "id": 1,
+    "shoe": "SB Dunk",
+    "company": "NIKE",
+    "color": "YELLOW"
+  }, {
+    "id": 1,
+    "shoe": "all Star",
+    "company": "Converse",
+    "color": "green"
+  }, {
+    "id": 1,
+    "shoe": "Cortez",
+    "company": "NIKE",
+    "color": "red"
+  }, {
+    "id": 1,
+    "shoe": "superstar",
+    "company": "adidas",
+    "color": "blue"
+  }]

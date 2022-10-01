@@ -42,3 +42,8 @@ The purpose of this week's spotlight is to introduce you to using open-source li
 | A table of the user data (or any data you want) showing on the `/tables` route                                  | 5      |
 | CSS Library installed and implemented                                                    | 5      |
 | Reflection on using open source                                                          | 5      |
+
+
+https://www.npmjs.com/package/rsuite-table TABLE USED
+RECHARTS
+MUI ALL GOOD TO GO
