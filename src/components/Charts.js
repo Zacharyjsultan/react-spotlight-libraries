@@ -1,5 +1,5 @@
 import userData from './../users.json';
-import { CartesianGrid, AreaChart, Area, XAxis, YAxis, Tooltip } from 'recharts';
+import { CartesianGrid, AreaChart, Area, XAxis, Tooltip } from 'recharts';
 
 export default function Chart() {
   const users = userData;
@@ -18,7 +18,6 @@ export default function Chart() {
           <CartesianGrid stroke="#eee" strokeDasharray="5 5"/>
           <XAxis dataKey="id" />
           <Tooltip />
-
           <Area type="monotone" dataKey="id" stroke="#0000FF" fill="#FFFF00" />
         </AreaChart>
       </div>
